@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+}
+
+:root {
+    --primary-font : "Open Sans", sans-serif;
+    --secundary-font : "Jacquard 24", system-ui;
+    --primary-color: #FEFDED;
+    --secundary-color: #5BBCFF;
+    --third-color: #FDA403;
+}
+
+body {
+    padding-top: 100px;
+    background-image: url(./Images/Espaço_Sideral.png);
+}
+
+header {
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-right: 16px;
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 30px;
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+form button,
+form input {
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+form button {
+    cursor: pointer;
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+
+}
+form input {
+    background-color: var(--primary-color);
+}
+
+table {
+    width: 100%;
+    max-width: 640px;
+    
+}
+
+table th {
+    font-weight: bold;
+    color: var(--third-color);
+}
+
+td img {
+    height: 30px;
+}
+
+
+table td {
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.40);
+}
