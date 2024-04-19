@@ -17,6 +17,7 @@
 body {
     padding-top: 100px;
     background-image: url(./Images/Espaço_Sideral.png);
+    background-repeat: no-repeat;
 }
 
 header {
